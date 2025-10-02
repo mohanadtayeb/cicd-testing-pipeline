@@ -1,0 +1,46 @@
+{
+  "name": "cicd-testing-pipeline-svelte",
+  "version": "1.0.0",
+  "description": "A comprehensive CI/CD testing pipeline demonstration with SvelteKit",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run --coverage",
+    "test:watch": "vitest",
+    "test:integration": "playwright test",
+    "test:e2e": "playwright test --config=playwright.e2e.config.js",
+    "lint": "prettier --check . && eslint .",
+    "lint:fix": "prettier --write . && eslint . --fix",
+    "format": "prettier --write .",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
+    "build:docker": "docker build -t cicd-testing-pipeline-svelte .",
+    "test:docker": "docker run --rm cicd-testing-pipeline-svelte npm test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@sveltejs/adapter-auto": "^2.1.1",
+    "@sveltejs/kit": "^1.27.4",
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/svelte": "^4.0.5",
+    "@testing-library/user-event": "^14.5.1",
+    "@vitest/coverage-v8": "^0.33.0",
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-svelte": "^2.35.0",
+    "jsdom": "^23.0.1",
+    "prettier": "^3.0.3",
+    "prettier-plugin-svelte": "^3.1.0",
+    "svelte": "^4.2.7",
+    "svelte-check": "^3.6.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0",
+    "vitest": "^0.34.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "@fontsource/fira-mono": "^5.0.0"
+  }
+}

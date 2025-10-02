@@ -1,0 +1,31 @@
+{
+	"extends": ["eslint:recommended", "plugin:svelte/recommended", "prettier"],
+	"plugins": ["svelte"],
+	"overrides": [
+		{
+			"files": ["*.svelte"],
+			"parser": "svelte-eslint-parser",
+			"parserOptions": {
+				"sourceType": "module",
+				"ecmaVersion": 2020
+			}
+		}
+	],
+	"parserOptions": {
+		"sourceType": "module",
+		"ecmaVersion": 2020,
+		"extraFileExtensions": [".svelte"]
+	},
+	"env": {
+		"browser": true,
+		"es2017": true,
+		"node": true
+	},
+	"rules": {
+		"no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
+		"no-console": "warn",
+		"prefer-const": "error",
+		"no-var": "error",
+		"svelte/no-unused-svelte-ignore": "off"
+	}
+}
