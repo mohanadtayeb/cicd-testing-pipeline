@@ -362,10 +362,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact & Connect
 
-**Project Author**: Mohanad Tayeb  
-**Purpose**: Software Testing & QA Skills Demonstration  
-**LinkedIn**: [Connect with me](https://linkedin.com/in/your-profile)  
-**Portfolio**: [View more projects](https://mohanad-tayeb.netlify.app/)
+- **Project Author**: Mohanad Tayeb  
+- **Purpose**: Software Testing & QA Skills Demonstration  
+- **LinkedIn**: [Connect with me](https://linkedin.com/in/your-profile)  
+- **Portfolio**: [View more projects](https://mohanad-tayeb.netlify.app/)
 ---
 
 **Happy Testing! 🚀**
