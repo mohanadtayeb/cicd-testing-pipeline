@@ -360,14 +360,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Playwright Team** - For comprehensive E2E testing
 - **GitHub** - For free CI/CD with GitHub Actions
 
-## 📞 Support
+## 📞 Contact & Connect
 
-If you have questions or need help:
-
-- **Open an Issue** on GitHub
-- **Check Documentation** in the `/docs` folder
-- **Review Examples** in the test files
-- **Contact**: mohanad_tayeb@hotmail.com
+**Project Author**: Mohanad Tayeb  
+**Purpose**: Software Testing & QA Skills Demonstration  
+**LinkedIn**: [Connect with me](https://linkedin.com/in/your-profile)  
+**Portfolio**: [View more projects](https://mohanad-tayeb.netlify.app/)
 ---
 
 **Happy Testing! 🚀**
